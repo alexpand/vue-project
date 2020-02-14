@@ -61,8 +61,11 @@ import TeamButton from '@/components/TeamButton.vue'
 @import '../styles/styles';
 
 .main--login {
-    width: 50%;
     margin: 0 auto;
+
+    @media(min-width: 768px){
+       width: 50%
+   }
 }
 
 .login {
@@ -71,15 +74,23 @@ import TeamButton from '@/components/TeamButton.vue'
     align-items: center;
     margin: 1em 1em;
     padding: 1em 0;
-    font-size: 1.2em;
+    font-size: 1.3em;
     color: $font-color;
     background-color: $dark-back;
     border: $border-selected;
+
+    @media(min-width: 768px){
+       font-size: 1.5em
+   }
 }
 
 .login--input {
     font-size: 1em;
     margin: .5em;
+
+    @media(min-width: 768px){
+       font-size: 1em
+   }
 }
 
 .login--info {

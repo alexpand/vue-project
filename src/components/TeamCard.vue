@@ -67,6 +67,7 @@ import TeamButton from '@/components/TeamButton.vue'
 @import '../styles/styles';
 
 .team--card {
+    width: 100%;
     margin: 2em auto;
     border: $border-selected;
     background-color: black;

@@ -37,7 +37,13 @@ import TeamButton from '@/components/TeamButton.vue'
 }
 
 .pagination--button {
-    width: 20%;
+    width: 35%;
+    font-size: 1em;
+
+    @media(min-width: 768px){
+       width: 40%;
+       font-size: 1.5em;
+   }
 }
 
 .pagination--number {
